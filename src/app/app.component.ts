@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {COURSES} from '../db-data';
 
 @Component({
   selector: 'app-root',
@@ -6,20 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  data = {
-  title: 'Angular Course Deep Dive'
-  };
-
-  onClicked() {
-      alert('Hello World!');
-    }
-  
-  
-  onKeyUp(newTitle:string) {
-    this.data.title = newTitle;
-
-  }
-
 
 
 
