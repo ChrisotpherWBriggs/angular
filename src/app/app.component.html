@@ -1,9 +1,9 @@
 <div style="width: 500px;">
-<h1>Welcome To {{data.title}}</h1>
+    <h1>Welcome To {{data.title}}</h1>
 </div>
-<div style="text-align: center;">
-<img src="assets/angular.png">
+<div align="center">
+    <img src="assets/angular.png" (click)="onClicked()">
 </div>
 <div>
-  <input class="demo" [value]="data.title">
+    <input class="demo" (keyup)="onKeyUp(titleInput.value)" [value]="data.title" #titleInput>
 </div>

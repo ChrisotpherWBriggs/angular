@@ -9,3 +9,13 @@ input.demo {
     height: 30px;
     font-size: 25px;
 }
+
+.num {
+    text-align: center; 
+    vertical-align: middle; 
+    border: thin outset black;
+    float: left;
+    width: 100px;
+    
+    
+}
